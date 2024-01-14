@@ -23,6 +23,9 @@ html{
     font-size: 30px;
     text-align: center;
 }
+.NavItem{
+    margin:0 100px;
+}
 body {
     background-color: gray;
     width: 78.5%;
