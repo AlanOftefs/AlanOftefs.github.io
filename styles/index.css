@@ -14,6 +14,7 @@ html{
     padding: 20px 0;
     font-size: 30px;
     text-align: center;
+    user-select:none;
 }
 .footer {    
     position: fixed;
@@ -25,6 +26,7 @@ html{
     padding: 10px 0;
     font-size: 30px;
     text-align: center;
+    user-select:none;
 }
 .NavItem{
     margin:0 100px;
