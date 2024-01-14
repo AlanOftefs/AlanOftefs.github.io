@@ -2,8 +2,8 @@ html{
     background-color:white;
 }
 .header {
-    left: 0;
     position: fixed;
+    left: 0;
     top: 0;
     color: white;
     background-color: black;
@@ -13,9 +13,9 @@ html{
     font-size: 30px;
     text-align: center;
 }
-.footer {
-    left: 0;
+.footer {    
     position: fixed;
+    left: 0;
     bottom: 0;
     color: white;
     background-color: black;
