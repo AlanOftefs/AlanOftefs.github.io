@@ -1,5 +1,8 @@
 html{
-    background-color:white;
+    background-image:url(background.png);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .nav {
     position: fixed;
@@ -8,7 +11,7 @@ html{
     color: white;
     background-color: black;
     width: 100%;
-    padding: 0;
+    padding: 20px 0;
     font-size: 30px;
     text-align: center;
 }
@@ -19,7 +22,7 @@ html{
     color: white;
     background-color: black;
     width: 100%;
-    padding: 0;
+    padding: 10px 0;
     font-size: 30px;
     text-align: center;
 }
@@ -27,8 +30,8 @@ html{
     margin:0 100px;
 }
 body {
-    background-color: gray;
-    width: 78.5%;
+    background-color: white;
+    width: 70%;
     margin: 0 auto;
     padding: 0px 0px;
 }
