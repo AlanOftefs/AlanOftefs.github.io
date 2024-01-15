@@ -6,6 +6,7 @@ let joinUs = document.getElementById("JoinUs");
 let all = [home, areas, culture, news, joinUs];
 
 const currentUrl = window.location.href;
+console.log(currentUrl);
 
 all.forEach(item => {
     if (!!item) {
