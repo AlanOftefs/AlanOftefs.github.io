@@ -52,8 +52,9 @@ ul, li {
 body {
     background-color: white;
     width: 70%;
-    margin: 0 auto;
-    padding: 0px 0px;
+    margin: 85px auto 65px;
+    padding: 0px 0px;   
+    border-radius:5px;
 }
 .HeaderDivision {
     height: 60px;
