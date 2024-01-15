@@ -16,6 +16,24 @@ html{
     text-align: center;
     user-select:none;
 }
+p{
+    font-size:20px;
+    margin:25px;    
+}
+a {
+    color: white;
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+}
+ul, li {
+    float:left;
+    margin: 0px 70px;
+}
+.SelectedNavItem {
+    text-shadow: -5px 0px 5px black;
+}
 .footer {    
     position: fixed;
     left: 0;
