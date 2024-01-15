@@ -10,12 +10,10 @@ const currentUrl = window.location.href;
 all.forEach(item => {
     if (!!item) {
         if (item.href === currentUrl) {
-            item.classList.remove("UnselectedNavItem");
             item.classList.add('SelectedNavItem');
         }
         else {
             item.classList.remove("SelectedNavItem");
-            item.classList.add('UnselectedNavItem');
         }
     }
 });
