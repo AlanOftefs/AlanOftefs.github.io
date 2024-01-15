@@ -4,7 +4,7 @@ html{
     background-repeat:no-repeat;
     background-size:cover;
 }
-.nav {
+nav {
     position: fixed;
     left: 0;
     top: 0;
@@ -14,7 +14,6 @@ html{
     padding: 20px 0;
     font-size: 30px;
     text-align: center;
-    user-select:none;
 }
 p{
     font-size:20px;
@@ -55,11 +54,4 @@ body {
     margin: 85px auto 65px;
     padding: 0px 0px;   
     border-radius:5px;
-}
-.HeaderDivision {
-    height: 60px;
-}
-
-.FooterDivision {
-    height: 60px;
 }
