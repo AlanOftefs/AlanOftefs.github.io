@@ -7,6 +7,7 @@ let all = [home, areas, culture, news, joinUs];
 
 const currentUrl = window.location.href;
 console.log(currentUrl);
+console.log(home.href);
 
 all.forEach(item => {
     if (!!item) {
