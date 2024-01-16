@@ -6,11 +6,11 @@ let joinUs = document.getElementById("JoinUs");
 let all = [home, areas, culture, news, joinUs];
 
 const currentUrl = window.location.href;
-
+console.log(currentUrl);
 all.forEach(item => {
     if (!!item) {
         if (item.href === currentUrl) {
-            console.log(currentUrl);
+            
             console.log(home.href);
             item.classList.add('SelectedNavItem');
         }
