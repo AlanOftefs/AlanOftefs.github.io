@@ -4,16 +4,46 @@ html{
     background-repeat:no-repeat;
     background-size:cover;
 }
-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
+nav {    
+    margin:0;
     color: white;
     background-color: #801361;
     width: 100%;
-    padding: 20px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0 0;
     font-size: 30px;
     text-align: center;
+    user-select:none;    
+}
+.NavItem {
+    margin: auto 70px;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li{
+    display:inline-block;
+}
+nav > ul {
+    float: left;
+    padding: 15px;
+    margin:0;
+}
+nav > ul > li {
+    float: left;
+    padding: 0;
+    margin:0;
+}
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
 }
 p{
     font-size:20px;
@@ -23,13 +53,7 @@ a {
     color: white;
     text-decoration:none;
 }
-ul{
-    list-style-type:none;
-}
-ul, li {
-    float:left;
-    margin: 0px 70px;
-}
+
 .SelectedNavItem {
     text-shadow: -5px 0px 5px black;
 }
@@ -45,13 +69,8 @@ ul, li {
     text-align: center;
     user-select:none;
 }
-.NavItem{
-    margin:0 100px;
-}
-body {
-    background-color: white;
-    width: 70%;
-    margin: 85px auto 65px;
-    padding: 0px 0px;   
+body {      
+    margin:0;
+    padding: 0;
     border-radius:5px;
 }
