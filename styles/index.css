@@ -1,37 +1,13 @@
 html {
     background-color: #801361;
-    background-image: url(../images/background.png);
+    background-image: url(background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-nav {    
-    margin:0;
-    color: white;
-    background-color: #801361;
-    width: 100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding: 0 0;
-    font-size: 30px;
-    text-align: center;
-    user-select:none;    
-}
-.NavItem {
-    margin: auto 70px;
-    padding: 0;
-}
 h1{
     margin:0;
     color:black; 
-}
-.TextBox {
-    background-color: white;
-    width: 60%;
-    margin:10px auto;
-    padding: 10px 10px;     
-    border-radius:5px;
 }
 .Title {
     display:inherit;
@@ -75,6 +51,23 @@ h1{
     border-radius: 3px;
     padding:0 20px 10px; 
 }
+nav {    
+    margin:0;
+    color: white;
+    background-color: #801361;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0 0;
+    font-size: 30px;
+    text-align: center;
+    user-select:none;    
+}
+.NavItem {
+    margin: auto 70px;
+    padding: 0;
+}
 ul {
     list-style-type: none;
     margin:0;
@@ -99,12 +92,15 @@ nav > ul > li > a {
     margin: 0;
     padding:0;
 }
+
+
 .SelectedNavItem {
     text-shadow: -3px 2px 5px black;
 }
-.footer {    
-    position: fixed;
+
+.footer {
     left: 0;
+    position: fixed;
     bottom: 0;
     color: white;
     background-color: #801361;
@@ -112,8 +108,16 @@ nav > ul > li > a {
     padding: 10px 0;
     font-size: 30px;
     text-align: center;
-    user-select:none;
+    user-select: none;
 }
+.TextBox {
+    background-color: white;
+    width: 60%;
+    margin:10px auto;
+    padding: 10px 10px;     
+    border-radius:5px;
+}
+
 body {      
     margin:0;
     padding: 0;
