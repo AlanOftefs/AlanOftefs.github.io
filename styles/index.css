@@ -47,7 +47,7 @@ nav > ul > li > a {
     padding:0;
 }
 .SelectedNavItem {
-    text-shadow: -5px 0px 5px black;
+    text-shadow: -3px 2px 5px black;
 }
 .footer {    
     position: fixed;
