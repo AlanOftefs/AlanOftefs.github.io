@@ -35,11 +35,11 @@ h1{
 }
 .Left {
     width:40%;    
-    margin:0 1%;
+    margin:0 1% 10px;
 }
 .Right {
     width: 40%;
-    margin: 0 1%;
+    margin: 0 1% 10px;
 }
 .Preview {
     color: gray;
