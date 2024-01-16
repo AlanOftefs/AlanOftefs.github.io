@@ -1,4 +1,3 @@
-function main() {
     let home = document.getElementById("Home");
     let areas = document.getElementById("Areas");
     let culture = document.getElementById("Culture");
@@ -10,15 +9,13 @@ function main() {
     console.log(currentUrl);
     console.log(home.href);
 
-    all.forEach(item => {
-        if (!!item) {
-            if (item.href === currentUrl) {
-                item.classList.add('SelectedNavItem');
-            }
-            else {
-                item.classList.remove("SelectedNavItem");
-            }
+all.forEach(item => {
+    if (!!item) {
+        if (item.href === currentUrl) {
+            item.classList.add('SelectedNavItem');
         }
-    });
-}
-window.onload = main;
+        else {
+            item.classList.remove("SelectedNavItem");
+        }
+    }
+});
