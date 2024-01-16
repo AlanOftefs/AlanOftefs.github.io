@@ -22,6 +22,59 @@ nav {
     margin: auto 70px;
     padding: 0;
 }
+h1{
+    margin:0;
+    color:black; 
+}
+.TextBox {
+    background-color: white;
+    width: 60%;
+    margin:10px auto;
+    padding: 10px 10px;     
+    border-radius:5px;
+}
+.Title {
+    display:inherit;
+}
+.Title:link {
+    text-decoration: none;    
+}
+.Title:active {
+    text-decoration: blink;
+    color: black;
+}
+
+.Title:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.Title:visited {
+    text-decoration: none;
+    color: black;
+}
+.Middle {
+    margin: 0px 0px 10px; 
+    display:inherit;
+}
+.Left {
+    width:40%;    
+    margin:0 1%;
+}
+.Right {
+    width: 40%;
+    margin: 0 1%;
+}
+.Preview {
+    color: gray;
+    font-size: 16px;
+    margin: 0;    
+}
+.Content {
+    background-color: #d4d4d4;
+    border-radius: 3px;
+    padding:0 20px 10px; 
+}
 ul {
     list-style-type: none;
     margin:0;
