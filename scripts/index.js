@@ -9,7 +9,7 @@ const currentUrl = window.location.href;
 console.log(currentUrl);
 all.forEach(item => {
     if (!!item) {
-        
+        console.log(item.href);
         if (item.href === currentUrl) {
             item.classList.add('SelectedNavItem');
         }
